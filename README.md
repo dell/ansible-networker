@@ -43,7 +43,7 @@ Ansible collection is used to get, create, modify or delete the networker resour
 
 ```
 - name: Get the volume information.
-  hosts: all
+  hosts: nve
   connection: local
   gather_facts: false
   tasks:
