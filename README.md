@@ -11,9 +11,11 @@ Ansible collection is used to get, create, modify or delete the networker resour
   
   Use below command to install the collection.
   
-  `ansible-galaxy collection install git+https://github.com/kshirs1/networker.git`
+  `ansible-galaxy collection install git+https://github.com/dell/ansible-networker.git`
   
   Install all packages from the requirements.txt file
+  
+  `pip install <collection-install-path>/dellemc/networker/requirements.txt`
 
 **Inventory file**
 
