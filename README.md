@@ -30,8 +30,8 @@ Ansible collection is used to get, create, modify or delete the networker resour
   private_key_file = /home/admin/.ssh/id_rsa
 
   nsr_port = 9090
-  nsr_user = administrator # NMC User name
-  nsr_pass = p@ssw0d123 # NMC User Password. Use the 
+  nsr_user = 'administrator' # NMC User name
+  nsr_pass = 'p@ssw0d123' # NMC User Password. Use the 
 ```
 **Ansible Playbook**
 
