@@ -1,5 +1,5 @@
 # Copyright ©️ 2022 Dell Inc. or its subsidiaries.
-rom __future__ import (absolute_import, division, print_function)
+from __future__ import (absolute_import, division, print_function)
 import urllib3
 urllib3.disable_warnings()
 __metaclass__ = type

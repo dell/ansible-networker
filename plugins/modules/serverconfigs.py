@@ -44,7 +44,7 @@ options:
         description: 'The list contains users or groups that are in this user group. Examples: sam@jupiter or user=sam,host=jupiter. (user sam on machine jupiter), *@jupiter or host=jupiter (any user on machine jupiter).'
   server-config:
     type: dict
-    description: 'Use to get or modify the server ocnfiguration'
+    description: 'Use to get or modify the server configuration'
     suboptions:
       acceptNewRecoverSessions:
         type: bool
@@ -211,7 +211,7 @@ auther:
 
 EXAMPLES = r'''
 - name: Toggle the Workflows
-  dellemc.networker.serverconfig:
+  dellemc.networker.serverconfigs:
     state: modify
     manualSaves: no
 '''
